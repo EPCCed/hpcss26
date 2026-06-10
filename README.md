@@ -14,42 +14,45 @@ both weeks. We have deliberately left the weekends and evenings free
 so you can relax and explore Edinburgh **except** for a group evening
 meals on Saturday 13th and Friday 26th.
 
-### Arrival
+### Arrival / Departure
 
 There will be a "get-together" meal (food and soft drinks provided) at
 **7pm on Saturday 13th** at [Pizza Posto](https://pizzaposto.co.uk/):
 16 Nicolson St, Edinburgh, EH8 9DH. This is less than 10 minutes' walk
 from the flats in Darroch Court.
 
+We are also planning a meal at **7pm on Friday 26th** at Howies
+Victoria Street but the details are still being confirmed.
+
 ### Lectures
 
 The standard day will run from 09.30 to 17:00 with an hour for lunch
-around 12:30 and coffee breaks mid-morning and mid-afternoon.
+around 13:00 and coffee/tea breaks mid-morning and mid-afternoon.
 
-However, for the first day **Monday 16th** could you please arrive at
-the Bayes Building, 47 Potterrow, Edinburgh EH8 9BT, **at 09:00** to
-give us more time for introductions, admin tasks etc.
+However, for the first day **Monday 15th** could you please arrive at
+EPCC in the Bayes Building, 47 Potterrow, Edinburgh EH8 9BT, **at
+09:00** to give us more time for introductions, admin tasks etc.
 
 Lectures will take place in Bayes or Room 2.14 in the **Lister Learning
 and Teaching Centre**, 5 Roxburgh Pl, Edinburgh EH8 9SU (this is about 5
 minutes from Darroch Court).
 
-Here is the schedule: in practical sessions students will work on
+Here is the schedule: in "Practical" sessions, students will work on
 their own on exercises based on the lecture material, with an EPCC
-staff member on hand to help.
+staff member on hand to help. Note that all lecture sessions will also
+have their own hands-on exercises.
 
 | Day | Morning (normally 9:30)  || Afternoon (normally 14:00) ||
 | --- | ---|--  | --- |--|
 | |  | |
 | Mon 16 | Bayes (**arrive 09:00**) | Introductions / bash / git | Bayes | bash / git |
-| Tue 17 | Bayes | Python / numpy |Bayes |  [Introduction to Compilers](./introduction-to-c/slides/compiler-essentials-slides.pdf) / [Introduction to C](./introduction-to-c/slides/c-essentials-slides.pdf) |
-| Wed 18 | Lister | [Introduction to C](./introduction-to-c/slides/c-essentials-slides.pdf) | Bayes | Practical |
-| Thu 19 | Bayes | Introduction to HPC (i) | Bayes | Practical |
-| Fri 20| Bayes | Introduction to HPC (ii) | Bayes | Practical |
+| Tue 17 | Bayes | Introduction to C |Bayes | Introduction to C |
+| Wed 18 | Bayes | Introduction to HPC (i) | Bayes | ACF Visit / Practical | Thu 19 | Bayes | Introduction to HPC (ii) | Bayes | Machine Learning (i)|
+| Fri 20| Bayes | Machine Learning (ii) | Bayes | Practical |
 | | | | | |
-| Mon 23 | Bayes | OpenMP for CPUs (i) | Bayes |  OpenMP for CPUs (ii) |
-| Tue 24 | Lister | OpenMP for CPUs (iii) | Bayes |  Practical |
-| Wed 25 | Lister | OpenMP for GPUs  | Bayes |  ACF visit |
-| Thu 26 | Lister | Introduction to MPI | Bayes |  Practical |
+| Mon 23 | Lister | OpenMP for CPUs (i) | Lister |  OpenMP for CPUs (ii) |
+| Tue 24 | Lister | OpenMP for CPUs (iii) | Lister | OpenMP for GPUs (i)  |
+| Wed 25 | Lister | OpenMP for GPUs (ii)   | Bayes |  Practical |
+| Thu 26 | Lister | Introduction to MPI (i)  | Lister |  Introduction to MPI (ii)  |
 | Fri 27 | Bayes | HPC Guest Lectures | Bayes | Practical |
 

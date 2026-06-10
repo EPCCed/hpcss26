@@ -11,7 +11,7 @@ together.
 
 There will be scheduled sessions all-day from Monday to Friday over
 both weeks. We have deliberately left the weekends and evenings free
-so you can relax and explore Edinburgh **except** for a group evening
+so you can relax and explore Edinburgh **except** for group evening
 meals on Saturday 13th and Friday 26th.
 
 ### Arrival / Departure
@@ -40,7 +40,7 @@ minutes from Darroch Court).
 Here is the schedule: in "Practical" sessions, students will work on
 their own on exercises based on the lecture material, with an EPCC
 staff member on hand to help. Note that all lecture sessions will also
-have their own hands-on exercises.
+have their own hands-on exercises - it is not just "chalk and talk"!
 
 | Day | Morning (normally 9:30)  || Afternoon (normally 14:00) ||
 | --- | ---|--  | --- |--|

@@ -45,14 +45,15 @@ have their own hands-on exercises.
 | Day | Morning (normally 9:30)  || Afternoon (normally 14:00) ||
 | --- | ---|--  | --- |--|
 | |  | |
-| Mon 16 | Bayes (**arrive 09:00**) | Introductions / bash / git | Bayes | bash / git |
-| Tue 17 | Bayes | Introduction to C |Bayes | Introduction to C |
-| Wed 18 | Bayes | Introduction to HPC (i) | Bayes | ACF Visit / Practical | Thu 19 | Bayes | Introduction to HPC (ii) | Bayes | Machine Learning (i)|
-| Fri 20| Bayes | Machine Learning (ii) | Bayes | Practical |
+| Mon 15 | Bayes (**arrive 09:00**) | Introductions / bash / git | Bayes | bash / git |
+| Tue 16 | Bayes | Introduction to C |Bayes | Introduction to C |
+| Wed 17 | Bayes | Introduction to HPC (i) | Bayes | ACF Visit / Practical |
+| Thu 18 | Bayes | Introduction to HPC (ii) | Bayes | Machine Learning (i)|
+| Fri 19| Bayes | Machine Learning (ii) | Bayes | Practical |
 | | | | | |
-| Mon 23 | Lister | OpenMP for CPUs (i) | Lister |  OpenMP for CPUs (ii) |
-| Tue 24 | Lister | OpenMP for CPUs (iii) | Lister | OpenMP for GPUs (i)  |
-| Wed 25 | Lister | OpenMP for GPUs (ii)   | Bayes |  Practical |
-| Thu 26 | Lister | Introduction to MPI (i)  | Lister |  Introduction to MPI (ii)  |
-| Fri 27 | Bayes | HPC Guest Lectures | Bayes | Practical |
+| Mon 22 | Lister | OpenMP for CPUs (i) | Lister |  OpenMP for CPUs (ii) |
+| Tue 23 | Lister | OpenMP for CPUs (iii) | Lister | OpenMP for GPUs (i)  |
+| Wed 24 | Lister | OpenMP for GPUs (ii)   | Bayes |  Practical |
+| Thu 25 | Lister | Introduction to MPI (i)  | Lister |  Introduction to MPI (ii)  |
+| Fri 26 | Bayes | HPC Guest Lectures | Bayes | Practical |
 

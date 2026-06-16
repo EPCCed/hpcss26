@@ -31,25 +31,25 @@ of Wednesday 17th June. We will take taxis in 2 groups:
 
 #### Group 1
 
-Abdul Mahdi
-Alice Seaman
-Callum Wright-Parish
-Cara Voysey
-Elliot Henton-Mitchell
-Jack Hill
-Klara Kurucova
-Mehul Bandhu
+* Abdul Mahdi
+* Alice Seaman
+* Callum Wright-Parish
+* Cara Voysey
+* Elliot Henton-Mitchell
+* Jack Hill
+* Klara Kurucova
+* Mehul Bandhu
 
 #### Group 2
 
-Nourdin Gaber Ibrahim
-Oskar Harber
-Rhea Bose
-Rommel Gregorio
-Sivanujan Sivapalan
-Syeda Nasir
-Taha Ahmed
-Ginny Douglas
+* Nourdin Gaber Ibrahim
+* Oskar Harber
+* Rhea Bose
+* Rommel Gregorio
+* Sivanujan Sivapalan
+* Syeda Nasir
+* Taha Ahmed
+* Ginny Douglas
 
 
 

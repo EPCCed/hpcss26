@@ -103,3 +103,100 @@ have their own hands-on exercises - it is not just "chalk and talk"!
 | Thu 25 | Lister | Introduction to MPI (i)  | Lister |  Introduction to MPI (ii)  |
 | Fri 26 | Bayes | HPC Guest Lectures | Bayes | Practical |
 
+### Image sharpening example
+
+The afternoon practical sessions (Wednesday and Friday) are a chance
+for you to either catch up with the material from the first few days
+(if it was new to you) or to work on a more substantial problem.
+
+We will be using the **Image Sharpening example**.
+
+For now this exercise illustrates a number of points:
+
+ * an algorithm that does a significant amount of computation;
+ * how to run a Python program on the ARCHER2 login node;
+ * how to compile and run a C program on the ARCHER2 login node;
+ * a comparison of the relative performance of C and (naively written) Python;
+ * an opportunity to see a real C program (warts and all!).
+
+You can find the image sharpening example at https://github.com/davidhenty/sharpen
+
+The code loops over all the pixels in an image and applies a large
+filter to each pixel that uses the values of the pixels in its near
+vicinity (by default a 17x17 square).
+
+On ARCHER2 you will need to load a module to get a suitable version of
+Python: `module load cray-python`
+
+To view the input and output images (fuzzy.pgm and sharpened.pgm), use `module load imagemagick` then `display fuzzy.pgm`. If you cannot get graphics
+to work on your machine then you can copy the images back to your desktop, but you will have to convert then to a non-PGM format first. For example, on ARCHER2 you can
+issue `convert fuzzy.pgm fuzzy.png`.
+
+#### Timing
+
+The code prints out times: the calculation time and the overall run time. The calculation time just measures how long it took to apply the filter to the image **excluding** the IO overheads of reading in the fuzzy image and writing out the sharpened one; the overall run time is the total time from start to finish. To find out how long was spent in IO just subtract the two.
+
+#### Python example
+
+To run the code:
+````
+module load cray-python
+python ./sharpen.py
+````
+
+Things you might like to investigate:
+
+*    How fast is the code on your laptop compared to the ARCHER2 login nodes?
+
+*    If you want the program to run faster you can change the size of the smoothing filter - try reducing the value of `d` in `sharpenalg.py` from its default value d=8. How does the runtime vary with d? Can you understand this behaviour by looking at the code?
+
+*    The program is deliberately written very simply and the performance can easily be improved. For example, the values of the (very time-consuming) function `filter()` could be pre-calculated and stored in an array. If you alter the code make sure that the output is still correct, e.g. by comparing the output image `sharpened.pgm` before and after your changes: they should be **identical**, i.e. `diff sharpened.pgm sharpened-reference.pgm` should show no differences (i.e. no output).
+
+  #### C example
+
+The C example is described in `doc/sharpen-cirrus.pdf` but note that
+the *details are for the Cirrus system and this year we are using
+ARCHER2.*
+
+This sheet covers a lot of topics and assumes you have not used an HPC system before. The material in sections 3.6 to 3.8 is most relevant here: you can
+skip most of the early sections. The instructions talk about downloading a tar file but you do not need to do this as you already have the source code from github.
+
+To compile and run on the login nodes:
+````
+make
+./sharpen
+````
+
+Things to look at include:
+
+ *   Do you understand the code? The way 2D arrays are allocated using `malloc` is a little complicated - if you really want to know what is going on here then ask a demonstrator!
+ *   How much faster is the compiled C version compared to the Python code?
+
+### Parallel sharpen
+
+This is an opportunity for you to investigate parallel scaling of the
+image sharpening example as described in sections 3.10 onward.
+
+#### Using the batch system
+
+To run a job in the batch system (assuming you have compiled the code): `sbatch sharpen.slurm`
+
+You can check the progress of jobs using: `squeue --me`
+
+When complete, output will appear in a file called something like `slurm-1234567.out`
+
+### Exercises
+
+The default exercises are around looking at the scaling of the pure
+MPI version and seeing if it follows Amdahl's law. You should:
+
+  * plot graphs of speedup and parallel efficiency
+  * see what value of alpha gives a good fit
+  * check if this agrees with what you would estimate from the IO time
+
+To change the number of processors, alter the values of `nodes`, `ntasks` and `tasks-per-node`.
+
+If you want to look at Gustafson's law - larger problems scale better
+- then increase the filter size by changing `d`, e.g. you could try
+`d=10` or `d=14`.
+

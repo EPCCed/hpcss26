@@ -93,7 +93,7 @@ have their own hands-on exercises - it is not just "chalk and talk"!
 | |  | |
 | Mon 15 | Bayes (**arrive 09:00**) | Introductions / bash / git | Bayes | bash / git |
 | Tue 16 | Bayes | Introduction to C |Bayes | Introduction to C |
-| Wed 17 | Bayes | Introduction to HPC (i) | Bayes | ACF Visit / [Practical](https://github.com/EPCCed/hpcss24-sharpen) |
+| Wed 17 | Bayes | Introduction to HPC (i) | Bayes | ACF Visit / [Practical](https://github.com/davidhenty/sharpen) |
 | Thu 18 | Bayes | Introduction to HPC (ii) | Bayes | Machine Learning (i)|
 | Fri 19| Bayes | Machine Learning (ii) | Bayes | Practical |
 | | | | | |

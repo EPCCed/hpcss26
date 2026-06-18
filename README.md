@@ -91,7 +91,7 @@ have their own hands-on exercises - it is not just "chalk and talk"!
 | Day | Morning (normally 9:30)  || Afternoon (normally 14:00) ||
 | --- | ---|--  | --- |--|
 | |  | |
-| Mon 15 | Bayes (**arrive 09:00**) | Introductions / bash / git | Bayes | bash / git |
+| Mon 15 | Bayes (**arrive 09:00**) | Introductions / bash (https://swcarpentry.github.io/shell-novice/) | Bayes | git (https://swcarpentry.github.io/git-novice/) |
 | Tue 16 | Bayes | Introduction to C |Bayes | Introduction to C |
 | Wed 17 | Bayes | Introduction to HPC (i) | Bayes | ACF Visit / [Practical](https://github.com/davidhenty/sharpen) |
 | Thu 18 | Bayes | Introduction to HPC (ii) | Bayes | Machine Learning (i)|

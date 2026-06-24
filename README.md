@@ -250,8 +250,7 @@ the simpler case when you do not specify a Reynolds number (i.e. for
 inviscid / irrotational flow). If you want you can try to extend to
 the general case.
 
-As set up, you should just be able to `sbatch cfd.slurm` and the job will run in the reservation,
-and compile the program with all the required modules. Remember
+As set up, you should just be able to `sbatch cfd.slurm` and the job will run in the reservation after compiling the program with all the required modules. Remember
 that you can easily alter the problem size and iteration count -
 `srun -n 1 ./cfd 20 10000` runs for 10,000 iterations on a problem size of 
 640x640 (i.e. 32 times the scale factor of 20).

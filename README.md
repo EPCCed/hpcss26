@@ -233,3 +233,26 @@ Notes:
   i.e. big problems scale better. However, you are welcome to
   investigate weak scaling: here, if you double the scale factor, you
   must increas the process count by **a factor of 4**.
+
+### CFD on the GPU
+
+To get a GPU-enabled version of the CFD code you will need to issue
+`git clone https://github.com/EPCCed/hpcss24-cfd`
+
+
+There is a lot to learn for GPU offload so please continue with
+exercises from this morning, but I have added a "C-GPU" directory to
+the hpcss24-cfd git repo which contains a simple example of using
+these directives for the cfd example.
+
+As for the previous OpenMP example the code only currently works for
+the simpler case when you do not specify a Reynolds number (i.e. for
+inviscid / irrotational flow). If you want you can try to extend to
+the general case.
+
+When measuring performance you will need to run much larger problems
+than for the CPU as you need a lot of grid points to keep the very
+large number of GPU threads active. You will also need to run for a
+large number of iterations to get reliable performance results: for
+large problems the cost of copying data to and from the GPU can be
+significant.

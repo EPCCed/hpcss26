@@ -37,8 +37,8 @@ first talk to ensure you get free coffee and biscuits!
 |09:00 - 09:30| Tea, coffee and biscuits (provided) |
 |09:30 - 10:30| Ritchie Somerville (EPCC Deputy Director): **The Next UK National Supercomputing Service at EPCC** |
 |10:30 - 11:00| Tea and coffee (provided) |
-|11:00 - 11:30| Kirsty Pringle (EPCC): **The Role of Research Software Engineers in Public Engagement** |
-|11:30 - 12:00| Liz Ing-Simmons (Imperial): **Sustainable computing in the research lifecycle**  |
+|11:00 - 11:30| Kirsty Pringle (EPCC): **The Role of Research Software Engineers in Public Engagement** (online)|
+|11:30 - 12:00| Liz Ing-Simmons (Imperial): **Sustainable computing in the research lifecycle** (online) |
 
 ### ACF Visit
 

@@ -32,7 +32,6 @@ The session will comprise guest lectures from a range of HPC
 experts. Catering will be provided so please arrive well before the
 first talk to ensure you get free coffee and biscuits!
 
-# create mode 100755 Guest/PublicEngagement_Talk.pdf
 # create mode 100755 Guest/liz_ing-simmons_epcc-summer-school2026.pdf
 
 
@@ -41,8 +40,8 @@ first talk to ensure you get free coffee and biscuits!
 |09:00 - 09:30| Tea, coffee and biscuits (provided) |
 |09:30 - 10:30| Ritchie Somerville (EPCC Deputy Director): [**The Next UK National Supercomputing Service at EPCC**](Guest/HPCSummerSchool20260626.pdf) |
 |10:30 - 11:00| Tea and coffee (provided) |
-|11:00 - 11:30| Kirsty Pringle (EPCC): **The Role of Research Software Engineers in Public Engagement** (online)|
-|11:30 - 12:00| Liz Ing-Simmons (Kings College London): **Sustainable computing in the research lifecycle** (online) |
+|11:00 - 11:30| Kirsty Pringle (EPCC): [**The Role of Research Software Engineers in Public Engagement**](Guest/PublicEngagement_Talk.pdf) (online)|
+|11:30 - 12:00| Liz Ing-Simmons (Kings College London): ]**Sustainable computing in the research lifecycle**](Guest/liz_ing-simmons_epcc-summer-school2026.pdf) (online) |
 
 ### ACF Visit
 

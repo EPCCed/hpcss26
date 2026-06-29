@@ -24,9 +24,9 @@ from the flats in Darroch Court.
 There will be a final meal at **7pm on Friday 26th** at The Canopy
 Restaurant nearby at the Edinburgh Futures Institute.
 
-### Copying of your work
+### Copying off your work
 
-Probably the easiest way to take copies of all your work on ARCHER2 is
+Probably the easiest way to take copies of all your work from ARCHER2 is
 to use `scp`. Just open up a terminal on your laptop and instead of using `ssh` to log in to ARCHER2, use something like this to copy all your files off:
 
 ````

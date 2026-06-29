@@ -24,6 +24,19 @@ from the flats in Darroch Court.
 There will be a final meal at **7pm on Friday 26th** at The Canopy
 Restaurant nearby at the Edinburgh Futures Institute.
 
+### Copying of your work
+
+Probably the easiest way to take copies of all your work on ARCHER2 is
+to use `scp`. Just open up a terminal on your laptop and instead of using `ssh` to log in to ARCHER2, use something like this to copy all your files off:
+
+````
+scp -r tc073hent1@login.archer2.ac.uk:/work/tc073/tc073/tc073hent1/ .
+````
+
+(replacing `tc073hent1` with you own username). This should create a
+folder called `tc073hent1` on your laptop containing all your files
+from ARCHER2.
+
 ### Friday AM Guest Lectures
 
 **This session takes place in room 5.46, the top floor of the Bayes Centre**
